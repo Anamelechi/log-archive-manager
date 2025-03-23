@@ -91,3 +91,4 @@ Feel free to contribute to this project by suggesting improvements, reporting is
 
 [MIT License](LICENSE)
 
+This project is part of [roadmap.sh](https://roadmap.sh/projects/server-stats) DevOps projects.
