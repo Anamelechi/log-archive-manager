@@ -7,7 +7,7 @@ ARCHIVE_DIR_NAME="archive"
 ARCHIVE_FILE_PREFIX="logs_archive"
 ARCHIVE_FILE_EXTENSION="tar.gz"
 LOG_ARCHIVE_LOG_FILE="archive_log.txt"
-EMAIL_RECIPIENT="philznjoku@gmail.com" # Set this in the script or via option
+EMAIL_RECIPIENT="" # Set this in the script or via option
 EMAIL_SUBJECT_SUCCESS="Log Archiving Successful"
 EMAIL_SUBJECT_FAILURE="Log Archiving Failed"
 
