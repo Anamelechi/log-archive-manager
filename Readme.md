@@ -79,9 +79,14 @@ You can automate the log archiving process using cron. Here's how:
 
     You can use online cron schedule generators to find the right schedule for your needs.
 
+## Output Example
+![Output](/assets/log-archive-manager.png)
+
 ## 📧 Email Notifications
 
 To enable email notifications, make sure you have the `mail` utility installed on your system. You can set the recipient email address via Option 5 in the menu or by directly modifying the `EMAIL_RECIPIENT` variable in the script.
+
+![Output](/assets/log-archive-manager-email.png)
 
 ## 🤝 Contributing
 
