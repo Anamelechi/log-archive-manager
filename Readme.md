@@ -40,7 +40,7 @@ This script is an interactive command-line tool designed to help you manage your
 
 1.  **Run the script:**
     ```bash
-    ./log-manager.sh
+    sudo ./log-manager.sh
     ```
 
 2.  **Follow the interactive menu:**
@@ -87,6 +87,10 @@ You can automate the log archiving process using cron. Here's how:
 To enable email notifications, make sure you have the `mail` utility installed on your system. You can set the recipient email address via Option 5 in the menu or by directly modifying the `EMAIL_RECIPIENT` variable in the script.
 
 ![Output](/assets/log-archive-manager-email.png)
+
+When sudo priviledges is not used to run the command it fails and you do not only get an error notification message you also get the exact error message in  the email.
+
+![Output](/assets/error-message.png)
 
 ## 🤝 Contributing
 
